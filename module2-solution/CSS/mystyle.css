@@ -1,0 +1,102 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+  font-family: Helvetica;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 190%;
+  font-weight: 600;
+  }
+    
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  
+  #section {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 20px 10px 20px 10px;
+    color: white;
+  }
+  
+  .sectiontit{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    top: -1px;
+    right: -1px;
+    text-align: center;
+    font-size: 120%;
+    position: relative;
+    float:  right;
+    font-family: Helvetica;
+  }  
+  
+  #t1 {
+    background-color: #92a8d1;
+    color: black;
+  }
+  
+  #t2 {
+    background-color: coral;
+    color: white;
+  }
+  
+  #t3 {
+    background-color: #fefbd8;
+    color: black;
+  }
+  
+  
+  #sectioncont {
+    margin: 40px 10px 10px 10px; 
+    clear: right;  
+    overflow: auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /********** Desktop devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+    }
+    
+    .col-lg-4 {
+      width: 33.33%;
+    }  
+    
+  }
+  
+  /********** Tablet devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+    }
+    
+    .col-md-6 {
+      width: 50%;
+    }
+    
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  /********** Mobile devices only **********/
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+    }
+    
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
